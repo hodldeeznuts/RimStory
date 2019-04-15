@@ -62,12 +62,7 @@ namespace RimStory.Harmony
                     Resources.eventsLog.Add(new IncidentShort(Utils.CurrentDate(), "RS_" + __instance.def.defName));
                 }
 
-                if (__instance is IncidentWorker_RefugeePodCrash)
-                {
-                    Resources.eventsLog.Add(new IncidentShort(Utils.CurrentDate(), "RS_" + __instance.def.defName));
-                }
-
-                if (__instance is IncidentWorker_Tornado)
+                if (__instance is IncidentWorker_TransportPodCrash)
                 {
                     Resources.eventsLog.Add(new IncidentShort(Utils.CurrentDate(), "RS_" + __instance.def.defName));
                 }
